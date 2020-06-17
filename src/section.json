@@ -1,0 +1,28 @@
+{
+    "section": [
+        {
+            "title": "Postres",
+            "responsible": "tasty",
+            "description": "food",
+            "priority": "medium"
+        },
+        {
+            "title": "Ensaladas",
+            "responsible": "tasty",
+            "description": "food",
+            "priority": "medium"
+        },
+        {
+            "title": "Panaderia",
+            "responsible": "tasty",
+            "description": "food",
+            "priority": "medium"
+        },
+        {
+            "title": "Vegetariana",
+            "responsible": "tasty",
+            "description": "food",
+            "priority": "medium"
+        }
+    ]
+}
