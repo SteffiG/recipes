@@ -1,11 +1,9 @@
 import React from 'react';
 import './css/App.css';
 import Navigation from './components/shared/Navigation';
-import Cards from './components/shared/Card';
-import Banner from './components/Banner'
+import Banner from './components/Banner';
+import Recipes from './components/pages/Recipes';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
-
 /*este archivo es para simular datos que vienen de backend, por lo menos asi lo entendi, y si estoy en lo correcto eso lo hace la API(no estoy 100% segura)*/
 import { section } from './section.json';
 
@@ -41,19 +39,15 @@ class App extends React.Component {
             {/*<About />*/}
             {/*<Footer />*/}
           </Route>
-          {/*<Route path="/Recipes">
+          <Route path="/Recipes">
             <Recipes />
-            <div className="App">
-        <Navigation />
-        <Cards />
-        <div className="container">
-          <div className="row mt-4">
-            { section }
-          </div>
-        </div>
-        </div>
+            <div className="container">
+                <div className="row mt-4">
+                  { section }
+                </div>
+              </div>
           </Route>
-          <Route path="/NewRecipe">
+          {/*<Route path="/NewRecipe">
             <NewRecipe />
           </Route>*/}
         </Switch>
@@ -61,6 +55,5 @@ class App extends React.Component {
     );
   }
 }
-
 
 export default App;
