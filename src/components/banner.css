@@ -1,0 +1,20 @@
+.banner {
+    height: 800px;
+    background-image: url(https://imgp2.schaer.com/sites/default/files/styles/header_large/public/2090_Cupcakes%20con%20Galletas%20de%20Chocolate.jpg?itok=E-7Rclpw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    font-family: 'Roboto', sans-serif;
+    color: SaddleBrown;
+    background-color: SeaShell;
+    font-weight: bold;
+    font-size: 4em;
+    padding: 0.1em;
+    text-align: center;
+    box-shadow: 2px 2px 2px 0px rgba(139,69,19,1);
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}

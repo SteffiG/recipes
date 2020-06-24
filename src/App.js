@@ -1,7 +1,10 @@
 import React from 'react';
 import './css/App.css';
-import Navigation from './components/Navigation';
-import Cards from './components/Cards';
+import Navigation from './components/shared/Navigation';
+import Cards from './components/shared/Card';
+import Banner from './components/Banner'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 /*este archivo es para simular datos que vienen de backend, por lo menos asi lo entendi, y si estoy en lo correcto eso lo hace la API(no estoy 100% segura)*/
 import { section } from './section.json';
@@ -14,8 +17,8 @@ class App extends React.Component {
     }
   }
 
-  render() {
 
+  render() {
     const section = this.state.section.map((section, i) => {
       return (
         <div className="col-md-4">
@@ -27,10 +30,20 @@ class App extends React.Component {
           </div>
         </div>
       );
-    })
+    });
 
     return(
-      <div className="App">
+        <Router>
+        <Switch>
+          <Route exact path="/">
+            <Navigation />
+            <Banner />
+            {/*<About />*/}
+            {/*<Footer />*/}
+          </Route>
+          {/*<Route path="/Recipes">
+            <Recipes />
+            <div className="App">
         <Navigation />
         <Cards />
         <div className="container">
@@ -38,8 +51,13 @@ class App extends React.Component {
             { section }
           </div>
         </div>
-      </div>
-
+        </div>
+          </Route>
+          <Route path="/NewRecipe">
+            <NewRecipe />
+          </Route>*/}
+        </Switch>
+      </Router>
     );
   }
 }
