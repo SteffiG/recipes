@@ -1,17 +1,24 @@
 import React from 'react';
+import './Navigation.css';
 
 class Navigation extends React.Component{
     render(){
         return(
-            <nav className="navbar navbar-dark bg-dark">
-                <a href="#" className="text-white">Home</a>
-                <a href="#" className="text-white">Recipes</a>
-                <a href="#" className="text-white">Courses</a>
-                <form className="form-inline">
-                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </nav>
+            <div className="navigation">
+                    <nav>
+                        <a href="#" className="nav">Home</a>
+                        <a href="#" className="nav">Recipes</a>
+                        <a href="#" className="nav">Courses</a>
+                    </nav>
+                    <div>
+                        <form>
+                            <input className="search-input" type="search" placeholder="Search" aria-label="Search" />
+                            <a className="search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            {/*<button className="search" type="submit">Search</button>*/}
+                        </form>
+                    </div> 
+            </div>
+            
         );
     }
 }

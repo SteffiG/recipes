@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.nav {
+    display: inline-block;
+    padding-right: 3em;
+    color: black;
+}
+
+.nav:hover{
+    font-weight: bold;
+    color: sienna;
+    text-decoration: none;
+}
+
+.search {
+    color: black;
+}
+
+.search:hover{
+    font-weight: bold;
+    color: sienna;
+}
+
+.search-input {
+    border: 0.1em solid gray;
+    margin: 0;
+    margin-right: 0.5em;
+}
