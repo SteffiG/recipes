@@ -3,6 +3,7 @@ import './css/App.css';
 import Navigation from './components/shared/Navigation';
 import Banner from './components/Banner';
 import Recipes from './components/pages/Recipes';
+import Footer from './components/shared/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 /*este archivo es para simular datos que vienen de backend, por lo menos asi lo entendi, y si estoy en lo correcto eso lo hace la API(no estoy 100% segura)*/
 import { section } from './section.json';
@@ -37,7 +38,7 @@ class App extends React.Component {
             <Navigation />
             <Banner />
             {/*<About />*/}
-            {/*<Footer />*/}
+            <Footer />
           </Route>
           <Route path="/Recipes">
             <Recipes />

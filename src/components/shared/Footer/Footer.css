@@ -1,0 +1,28 @@
+.footer {
+    background-color: dimgrey;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 3em;
+}
+
+.footer-dir {
+    text-align: center;
+}
+
+
+.footer-app {
+    padding-bottom: 2em;
+}
+
+.footer-app_icon {
+    padding: 1em;
+    color: white;
+    font-size: 2em;
+}
+
+.footer-app_icon:hover {
+    color: black;
+}
