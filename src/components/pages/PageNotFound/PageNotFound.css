@@ -1,3 +1,26 @@
 .page {
-    background: url(https://img.freepik.com/free-vector/404-error-page-found-with-donut_114341-54.jpg?size=626&ext=jpg);
+    background-color: linen; 
+}
+
+.page-description {
+    text-align: center;
+    font-size: 2em;
+    color: sienna;
+}
+
+.page-link {
+    font-weight: bold;
+    color: sienna;
+    background-color: linen;
+
+}
+
+.page-link:hover {
+    color: sienna;
+}
+ 
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
