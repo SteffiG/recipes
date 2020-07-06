@@ -13,24 +13,23 @@ class Footer extends React.Component {
                     <p className="direction">Direccion: <br/>Medellin, Antioquia. Calle 9 #68-49.<br/>3119328720/(034)2346699</p>
                 </div>
                 <div className="footer-app">
-                    <Link to="https://www.instagram.com/" className="footer-app_icon">
+                    {/*los links en este caso estan con el anchor debido a que la opcion Link de react router es para links internos de la pagina*/}
+                    <a href="https://www.instagram.com/" target="_blanck" className="footer-app_icon">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </Link>
-                    <Link to="https://www.facebook.com/" className="footer-app_icon">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blanck" className="footer-app_icon">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </Link>
-                    <Link to="https://www.twitter.com/" className="footer-app_icon">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blanck" className="footer-app_icon">
                         <i class="fa fa-twitter" aria-hidden="true"></i> 
-                    </Link>
-                    <Link to="https://www.youtube.com/" className="footer-app_icon">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blanck" className="footer-app_icon">
                         <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    </Link>
+                    </a>
                 </div>
-                {/*<div className="author">*/}
-                    <p>
-                        © Eunoia. 'Una hermosa manera de pensar' • 2020 • Copyright
-                    </p>
-        {/*</div>*/}
+                <p>
+                    © Eunoia. 'Una hermosa manera de pensar' • 2020 • Copyright
+                </p>
             </div>
             
         );
