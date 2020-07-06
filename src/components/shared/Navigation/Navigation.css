@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 2em;
+    background-color: white;
 }
 
 .nav {

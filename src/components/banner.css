@@ -3,16 +3,21 @@
     background: linear-gradient( rgba(117, 116, 119, 0.527),  rgba(117, 116, 119, 0.527)), url(https://imgp2.schaer.com/sites/default/files/styles/header_large/public/2090_Cupcakes%20con%20Galletas%20de%20Chocolate.jpg?itok=E-7Rclpw); 
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .banner-text {
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 4em;
     padding: 0.1em;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;  
+}
+
+.text-sentence {
+    font-weight: 300;
+    font-size: 0.5em;
 }

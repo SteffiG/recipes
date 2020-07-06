@@ -1,28 +1,88 @@
 {
     "section": [
         {
-            "title": "Postres",
-            "responsible": "tasty",
-            "description": "food",
-            "priority": "medium"
+            "title": "Recetas de Postres",
+            "category": "Postres"
         },
         {
-            "title": "Ensaladas",
-            "responsible": "tasty",
-            "description": "food",
-            "priority": "medium"
+            "title": "Recetas de Ensaladas",
+            "category": "Ensaladas"
         },
         {
-            "title": "Panaderia",
-            "responsible": "tasty",
-            "description": "food",
-            "priority": "medium"
+            "title": "Recetas de Panaderia",
+            "category": "Panaderia"
         },
         {
-            "title": "Vegetariana",
-            "responsible": "tasty",
-            "description": "food",
-            "priority": "medium"
+            "title": "Recetas Vegetarianas",
+            "category": "Vegetariana"
+        }
+    ],
+
+    "postres": [
+        {
+            "recipe": "3 leches",
+            "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+            "ingredientes": "[leche 1, leche 2, leche 3]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },
+        {
+            "recipe": "Quesillo",
+            "ingredientes": "[huevos, leche evaporada, leche condensada, azucar y agua]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },
+        {
+            "recipe": "Torta",
+            "ingredientes": "[margarina, azucar, leche, huevos, harina, vainilla, polvo de hornear]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        }
+    ],
+
+    "ensalada": [
+        {
+            "recipe": "pico 'e gallo",
+            "ingredientes": "[tomate, cebolla, cilantro]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },
+        {
+            "recipe": "Ensalada de Navidad",
+            "ingredientes": "[repollo, zanahoria, guisantes, gallina, cebolla, manzana, papa]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        }
+    ],
+
+    "panaderia": [
+        {
+            "recipe": "Pan de Jamon",
+            "ingredientes": "[harina, margarina, huevos, levadura, jamon, tocineta, ...]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },
+        {
+            "recipe": "Pizza",
+            "ingredientes": "[harina, margarina, huevos, levadura, oregano...]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },
+        {
+            "recipe": "Pan dulce",
+            "ingredientes": "[harina, margarina, huevos, levadura, azucar...]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        }
+    ],
+    
+    "vegetariana": [
+        {
+            "recipe": "torta de zanahoria",
+            "ingredientes": "[ing 1, ing 2, ing 3]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },
+        {
+            "recipe": "Hamburguesa de lentejas",
+            "ingredientes": "[lentejas, pan de hamburguesa, tomate...]",
+            "preparacion": "[paso 1, paso 2, paso 3]"
+        },    
+        {
+            "recipe": "Crema de Coliflor, zanahoria y Brocoli",
+            "ingredientes": "[coliflor, zanahoria, brocli, cilandro, cebolla...]",
+            "preparacion": "[paso 1, paso2, paso 3]"
         }
     ]
 }

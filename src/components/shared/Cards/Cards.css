@@ -1,0 +1,21 @@
+/*.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cards {
+    color: black;
+    margin: 2em;
+    background: lightskyblue;
+}
+
+
+.cards-title {
+    padding: 1em;
+    text-align: center;
+    font-size: small;
+}
+
+.decoration:hover {
+    text-decoration: none;
+}*/

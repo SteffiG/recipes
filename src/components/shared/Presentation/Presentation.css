@@ -1,0 +1,29 @@
+.presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url(https://images-gmi-pmc.edge-generalmills.com/2ec98352-15dc-42c5-b9e9-7c4c0acc4bba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2em;
+    padding: 2em;
+   
+}
+
+.presentation-title {
+    font-size: 3em;
+    font-weight: bold;
+    background-color: linen;
+    justify-self: flex-start;
+    padding: 0.5em 2em 2em 1em;
+    width: 9em;
+    clip-path: polygon(50% 0%, 100% 0, 0 100%, 0% 0);
+}
+
+.presentation-text {
+    background-color: linen;
+    margin-top: 1.5em;
+    padding: 2.5em 2.5em 2.5em 2.5em;
+    height: 8.5em;
+    text-align: center;
+}

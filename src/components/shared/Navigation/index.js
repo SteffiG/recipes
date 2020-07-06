@@ -1,14 +1,17 @@
 import React from 'react';
 import './Navigation.css';
+import { Link } from 'react-router-dom';
+
+/*Header de la pagina*/
 
 class Navigation extends React.Component{
     render(){
         return(
-            <div className="navigation">
+            <header className="navigation">
                     <nav>
-                        <a href="#" className="nav">Home</a>
-                        <a href="#" className="nav">Recipes</a>
-                        <a href="#" className="nav">Courses</a>
+                        <Link to="/" className="nav">Home</Link>
+                        <Link to="/categories" className="nav">Recipes</Link>
+                        <Link to="/new-recipe" className="nav">New Recipe</Link>
                     </nav>
                     <div>
                         <form>
@@ -17,7 +20,7 @@ class Navigation extends React.Component{
                             {/*<button className="search" type="submit">Search</button>*/}
                         </form>
                     </div> 
-            </div>
+            </header>
             
         );
     }
