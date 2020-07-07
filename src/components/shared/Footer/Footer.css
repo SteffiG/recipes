@@ -19,11 +19,27 @@
 }
 
 .footer-app_icon {
-    padding: 1em;
+    padding: 0.5em;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
-.footer-app_icon:hover {
+.footer-app_icon:active {
     color: black;
+}
+
+.copyright {
+    text-align: center;
+
+}
+
+@media screen and (min-width: 768px) {
+    .footer-app_icon {
+        padding: 1em;
+        font-size: 2em;
+    }
+    
+    .footer-app_icon:hover {
+        color: black;
+    }
 }

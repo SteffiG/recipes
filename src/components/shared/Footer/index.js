@@ -26,7 +26,7 @@ class Footer extends React.Component {
                         <i class="fa fa-youtube-play" aria-hidden="true"></i>
                     </a>
                 </div>
-                <p>
+                <p className="copyright">
                     © Eunoia. 'Una hermosa manera de pensar' • 2020 • Copyright
                 </p>
             </div>
