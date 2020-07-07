@@ -1,33 +1,50 @@
 import React from 'react';
-/*este archivo es para simular datos que vienen de backend, por lo menos asi lo entendi, y si estoy en lo correcto eso lo hace la API(no estoy 100% segura)*/
-import recipes from '../../../recipes.json';
-import './Cards.css';
-/*Cards con contenido de recetas, nos redireccionan a una pagina con la categoria o receta seleccionada*/
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
-class Cards extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-          recipes
-        }
-    }
-    
-    render() {
-        const recipes = this.state.recipes.map((recipes) => {
-          return (
-              <div className="cards">
-                <p className="cards-title">{recipes.title}</p>
-              </div>
-          );
-        });
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 345,
+  },
+});
 
-        return(
-          <div className="container">
-            { recipes }
-          </div>
-        );
-        
-    }        
+export default function ImgMediaCard() {
+  const classes = useStyles();
+
+  return (
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          height="140"
+          image="/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Lizard
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p">
+            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+            across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+          Learn More
+        </Button>
+      </CardActions>
+    </Card>
+  );
 }
-
-export default Cards;

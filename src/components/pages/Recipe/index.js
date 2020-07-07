@@ -22,8 +22,7 @@ class Recipe extends React.Component {
                     <div  className="recipe-ingredient">
                         {recipeSelected.ingredientes.map((ingredient) => (
                             <p className="ingredients">{ingredient}</p>
-                        ))}
-                        
+                        ))}         
                     </div>
                     <div className="recipe-preparation">
                         {recipeSelected.preparacion.map((preparation) => (

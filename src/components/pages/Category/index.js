@@ -1,5 +1,4 @@
 import React from 'react';
-import Cards from '../../shared/Cards'; 
 import Navigation from '../../shared/Navigation';
 import Footer from '../../shared/Footer';
 import { Link } from 'react-router-dom';

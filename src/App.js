@@ -1,21 +1,14 @@
 import React from 'react';
 import './css/App.css'
-import Banner from './components/Banner';
+import Banner from './components/Banner.js';
 import Categories from './components/pages/Categories';
 import Category from './components/pages/Category';
 import Recipe from './components/pages/Recipe';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import "./section.json";
 import PageNotFound from './components/pages/PageNotFound';
+{/*import ImgMediaCard from './components/shared/Cards';*/}
 
-{/*constructor(props) {
-    super(props);
-    this.state = {
-      section: {},
-    };
-  }
-  
-   const { section } = this.state;*/}
 class App extends React.Component {
   render() {
     return(
@@ -23,6 +16,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/">
             <Banner />
+            {/*<ImgMediaCard />*/}
           </Route>
           <Route path="/categories/:categoryId/recipe/:recipeId" component={Recipe} />
           <Route path="/categories/:categoryId" component={Category} />

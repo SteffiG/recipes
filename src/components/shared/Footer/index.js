@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 
-/*Aqui encontramos la informacion de contacto*/
+/*Aqui encontramos la información de contacto*/
 
 class Footer extends React.Component {
     render() {
@@ -10,10 +9,10 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="footer-dir">
                     <h3 className="direction">Contact</h3>
-                    <p className="direction">Direccion: <br/>Medellin, Antioquia. Calle 9 #68-49.<br/>3119328720/(034)2346699</p>
+                    <p className="direction">Direction: <br/>Medellín, Antioquia. Calle 9 #68-49.<br/>3119328720/(034)2346699</p>
                 </div>
                 <div className="footer-app">
-                    {/*los links en este caso estan con el anchor debido a que la opcion Link de react router es para links internos de la pagina*/}
+                    {/*los links en este caso estan con el anchor debido a que la opción Link de react router es para links internos de la página*/}
                     <a href="https://www.instagram.com/" target="_blanck" className="footer-app_icon">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
