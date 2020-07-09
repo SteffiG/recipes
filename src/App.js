@@ -16,7 +16,8 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/">
             <Banner />
-            {/*<ImgMediaCard />*/}
+          {/*<ImgMediaCard />
+          <ImgMediaCard />*/}
           </Route>
           <Route path="/categories/:categoryId/recipe/:recipeId" component={Recipe} />
           <Route path="/categories/:categoryId" component={Category} />

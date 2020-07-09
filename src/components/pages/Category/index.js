@@ -1,12 +1,11 @@
 import React from 'react';
 import Navigation from '../../shared/Navigation';
 import Footer from '../../shared/Footer';
-import { Link } from 'react-router-dom';
 import recipes from '../../../recipes.json';
 import '../Categories/Categories.css';
+import ImgMediaCard from '../../shared/Cards';
 
 class Category extends React.Component {
-
     render() {
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
@@ -17,8 +16,13 @@ class Category extends React.Component {
                     <h2>Categoria</h2>
                     <div className="cards">
                         {recipes[idCategory].recipes.map((recipe, index) => (
-                            <Link to={`/categories/${idCategory}/recipe/${index}`} className="card">{recipe.name}</Link>
+                            <ImgMediaCard
+                                typoLink={`/categories/${idCategory}/recipe/${index}`} 
+                                title={recipe.name}
+                                image={recipe.image} 
+                            />
                         ))}
+                        
                 </div>
                 </div>
                 <Footer/>
