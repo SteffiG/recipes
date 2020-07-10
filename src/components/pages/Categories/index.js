@@ -3,12 +3,12 @@ import '../Categories/Categories.css';
 import Presentation from '../../shared/Presentation';
 import Navigation from '../../shared/Navigation';
 import Footer from '../../shared/Footer';
-import recipes from '../../../recipes.json';
 import ImgMediaCard from '../../shared/Cards';
-/*Pagina de categorias de recetas*/
 
 class Categories extends React.Component {
     render(){
+        let categories = JSON.parse(sessionStorage.getItem('recipes'));
+
         return (
             <div>
                 <Navigation />                
@@ -16,12 +16,12 @@ class Categories extends React.Component {
                     <Presentation />
                     <h2 className="name">Categorias</h2>
                     <div className="cards">
-                        {recipes.map((recipe, index) => (
+                        {categories.map((category, index) => (
                             <ImgMediaCard
-                                description={recipe.description}
+                                description={category.description}
                                 typoLink={`/categories/${index}`} 
-                                title={recipe.title}
-                                image={recipe.image} 
+                                title={category.title}
+                                image={category.image} 
                             />
                         ))}
                     </div>

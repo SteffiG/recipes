@@ -1,8 +1,8 @@
 [
     {
         "title": "Recetas de Postres",
-        "description": "Esta es la descripcion de los postres",
-        "image": "https://lh3.googleusercontent.com/proxy/NGzaSAD6ctUMhMSRtcIVuL9Nn8znGcBo1_RVZiuJbB1YTNsPzIUN0xY3jG--UVDhWaDtnHTwgGRHdC4oOMa-xYhkvcgXzLEvCcGr6m76YM8bety5m5CkOQXeALiIibBtesRZSzg7M_a-AWlh",
+        "description": "Welcome, this is the dessert section, here you will found all you want",
+        "image": "https://i.blogs.es/25bab8/postres-expres/450_1000.jpg",
         "category": "Postres",
         "recipes": [
             {
@@ -39,7 +39,7 @@
     },
     {
         "title": "Recetas de Ensaladas",
-        "description": "Esta es la descripcion de los postres",
+        "description": "Welcome, this is the salads section, here you will found all you want",
         "image": "https://dam.cocinafacil.com.mx/wp-content/uploads/2018/12/ensaladas-saludables-mes.jpg",
         "category": "Ensaladas",
         "recipes": [
@@ -67,7 +67,7 @@
     },
     {
         "title": "Recetas de Panaderia",
-        "description": "Esta es la descripcion de los postres",
+        "description": "Welcome, this is the bakery section, here you will find everything you want",
         "image": "https://panypizza.com/wp-content/uploads/2019/05/panes-724x465.jpg",
         "category": "Panaderia",
         "recipes": [
@@ -105,7 +105,7 @@
     },
     {
         "title": "Recetas Vegetarianas",
-        "description": "Esta es la descripcion de los postres",
+        "description": "Welcome, this is the vegetarian section, here you will find everything you want",
         "image": "https://i.ytimg.com/vi/1w6NooZQlS4/maxresdefault.jpg",
         "category": "Vegetariana",
         "recipes": [

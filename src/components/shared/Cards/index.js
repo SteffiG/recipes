@@ -30,10 +30,23 @@ export default function ImgMediaCard(props) {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-            <Link to={props.typoLink}>{props.title}</Link> 
+              {
+                props.list 
+                ? props.list.map((ingredient) => (
+                    <p className="ingredients">{ingredient}</p>
+                ))
+                : <Link to={props.typoLink}>{props.title}</Link> 
+
+              }
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              {props.description}
+              {
+                props.list2 
+                ? props.list2.map((ingredient) => (
+                    <p className="ingredients">{ingredient}</p>
+                ))
+                : props.description
+              }
             </Typography>
           </CardContent>
         </CardActionArea>

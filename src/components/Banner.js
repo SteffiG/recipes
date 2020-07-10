@@ -3,8 +3,6 @@ import './banner.css';
 import Navigation from './shared/Navigation';
 import Footer from './shared/Footer';
 
-/*Banner de la pagina, se ubica en el home*/
-
 const Banner = ({}) => {
     return(
         <div>
