@@ -1,9 +1,9 @@
 [
     {
-        "title": "Recetas de Postres",
+        "title": "Desserts recipes",
         "description": "Welcome, this is the dessert section, here you will found all you want",
         "image": "https://i.blogs.es/25bab8/postres-expres/450_1000.jpg",
-        "category": "Postres",
+        "category": "Desserts",
         "recipes": [
             {
                 "name": "3 leches",
@@ -11,7 +11,7 @@
                 "ingredientes": [
                     "leche 1", "leche 2", "leche 3"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
@@ -21,7 +21,7 @@
                 "ingredientes": [
                     "huevos", "leche evaporada", "leche condensada", "azucar"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
@@ -31,17 +31,17 @@
                 "ingredientes": [
                     "margarina", "azucar", "leche", "huevos", "harina", "vainilla", "polvo de hornear"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             }
         ]
     },
     {
-        "title": "Recetas de Ensaladas",
+        "title": "Salads recipes",
         "description": "Welcome, this is the salads section, here you will found all you want",
         "image": "https://dam.cocinafacil.com.mx/wp-content/uploads/2018/12/ensaladas-saludables-mes.jpg",
-        "category": "Ensaladas",
+        "category": "Salads",
         "recipes": [
             {
                 "name": "Pico de Gallo",
@@ -49,7 +49,7 @@
                 "ingredientes": [
                     "tomate", "cebolla", "cilantro"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
@@ -59,17 +59,17 @@
                 "ingredientes": [
                     "repollo", "zanahoria", "guisantes", "gallina", "cebolla", "manzana", "papa"
                     ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             }
         ]
     },
     {
-        "title": "Recetas de Panaderia",
+        "title": "Bakery recipes",
         "description": "Welcome, this is the bakery section, here you will find everything you want",
         "image": "https://panypizza.com/wp-content/uploads/2019/05/panes-724x465.jpg",
-        "category": "Panaderia",
+        "category": "Bakery",
         "recipes": [
             {
                 "name": "Pan de Jamon",
@@ -77,7 +77,7 @@
                 "ingredientes": [
                     "harina", "margarina", "huevos", "levadura", "jamon", "tocineta"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
@@ -87,7 +87,7 @@
                 "ingredientes": [
                     "harina", "margarina", "huevos", "levadura", "oregano"
                 ],
-                "preparacion": [
+                "preparation": [
                    " paso 1", "paso 2", "paso 3"
                 ]
             },
@@ -97,17 +97,17 @@
                 "ingredientes": [
                     "harina"," margarina"," huevos", "levadura", "azucar"
                     ],
-                "preparacion": [
+                "preparation": [
                     "paso 1","paso 2"," paso 3"
                 ]
             }
         ]
     },
     {
-        "title": "Recetas Vegetarianas",
+        "title": "Vegetarian recipes",
         "description": "Welcome, this is the vegetarian section, here you will find everything you want",
         "image": "https://i.ytimg.com/vi/1w6NooZQlS4/maxresdefault.jpg",
-        "category": "Vegetariana",
+        "category": "Vegetarian",
         "recipes": [
             {
                 "name": "torta de zanahoria",
@@ -115,7 +115,7 @@
                 "ingredientes": [
                     "ing 1", "ing 2", "ing 3"
                 ],
-                "preparacion": [
+                "preparation": [
                    " paso 1", "paso 2", "paso 3"
                 ]
             },
@@ -125,7 +125,7 @@
                 "ingredientes": [
                     "lentejas", "pan de hamburguesa", "tomate"
                     ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },    
@@ -135,7 +135,7 @@
                 "ingredientes": [
                     "coliflor", "zanahoria"," brocoli"," cilandro", "cebolla"
                     ],
-                "preparacion": [
+                "preparation": [
                    " paso 1", "paso2", "paso 3"
                 ]
             }

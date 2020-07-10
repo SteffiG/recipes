@@ -1,0 +1,10 @@
+.added-recipes-cards{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.added-recipes h3 {
+    color:sienna;
+    text-align: center;
+  }
