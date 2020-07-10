@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../../shared/Cards'; 
+import Cards from '../../shared/Cards';
 import Navigation from '../../shared/Navigation';
 import Footer from '../../shared/Footer';
 import { Link } from 'react-router-dom';
@@ -11,18 +11,19 @@ class Category extends React.Component {
     render() {
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
-        return(
+
+        return (
             <div className="container">
-                <Navigation/>
+                <Navigation />
                 <div className="categories">
-                    <h2>Categoria</h2>
+                    <h2>{`${recipes[idCategory].category} category`}</h2>
                     <div className="cards">
                         {recipes[idCategory].recipes.map((recipe, index) => (
                             <Link to={`/categories/${idCategory}/recipe/${index}`} className="card">{recipe.name}</Link>
                         ))}
+                    </div>
                 </div>
-                </div>
-                <Footer/>
+                <Footer />
             </div>
         );
     }

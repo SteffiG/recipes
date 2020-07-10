@@ -5,32 +5,44 @@ import Categories from './components/pages/Categories';
 import Category from './components/pages/Category';
 import Recipe from './components/pages/Recipe';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import "./section.json";
 import PageNotFound from './components/pages/PageNotFound';
+import NewRecipe from './components/pages/NewRecipe';
+import List from './components/pages/List';
+class App extends React.Component {
 
-{/*constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
-      section: {},
+      newRecipes: [],
     };
   }
-  
-   const { section } = this.state;*/}
-class App extends React.Component {
+
+  addRecipe = (newRecipe) => {
+    //Recibe el Estado de del componene NewRecipe
+    this.setState({
+      newRecipes: [...this.state.newRecipes, newRecipe],
+    });
+  };
+
   render() {
-    return(
-        <Router>
+    const { newRecipes } = this.state;
+
+    return (
+      <Router>
         <Switch>
           <Route exact path="/">
             <Banner />
           </Route>
           <Route path="/categories/:categoryId/recipe/:recipeId" component={Recipe} />
-          <Route path="/categories/:categoryId" component={Category} />
+          <Route path="/categories/:categoryId" component={Category}/>
+          <Route path="/added-recipes">
+            <List newRecipes={newRecipes}/>
+          </Route>
           <Route path="/categories" component={Categories} />
+          <Route path="/new-recipe">
+            <NewRecipe onCreate={this.addRecipe} />
+          </Route>
           <Route component={PageNotFound} />
-          {/*<Route path="/NewRecipe">
-            <NewRecipe />
-          </Route>*/}
         </Switch>
       </Router>
     );

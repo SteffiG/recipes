@@ -1,33 +1,55 @@
 import React from 'react';
-/*este archivo es para simular datos que vienen de backend, por lo menos asi lo entendi, y si estoy en lo correcto eso lo hace la API(no estoy 100% segura)*/
-import recipes from '../../../recipes.json';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
 import './Cards.css';
-/*Cards con contenido de recetas, nos redireccionan a una pagina con la categoria o receta seleccionada*/
 
-class Cards extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-          recipes
-        }
-    }
-    
-    render() {
-        const recipes = this.state.recipes.map((recipes) => {
-          return (
-              <div className="cards">
-                <p className="cards-title">{recipes.title}</p>
-              </div>
-          );
-        });
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 345,
+  },
+});
 
-        return(
-          <div className="container">
-            { recipes }
-          </div>
-        );
-        
-    }        
+export default function ImgMediaCard(props) {
+  const classes = useStyles();
+
+  console.log(props);
+
+  return (
+      <Card className={classes.root}>
+        <CardActionArea className="separation">
+          <CardMedia
+            component="img"
+            alt="Food"
+            height="160"
+            image={props.image}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              {
+                props.list 
+                ? props.list.map((ingredient) => (
+                    <p className="ingredients">{ingredient}</p>
+                ))
+                : <Link to={props.typoLink}>{props.title}</Link> 
+
+              }
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {
+                props.list2 
+                ? props.list2.map((ingredient) => (
+                    <p className="ingredients">{ingredient}</p>
+                ))
+                : props.description
+              }
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+  );
 }
-
-export default Cards;

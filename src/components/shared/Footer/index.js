@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import './Footer.css';
 
 /*Aqui encontramos la informacion de contacto*/
@@ -9,8 +9,8 @@ class Footer extends React.Component {
         return(
             <div className="footer">
                 <div className="footer-dir">
-                    <h3 className="direction">Contact</h3>
-                    <p className="direction">Direccion: <br/>Medellin, Antioquia. Calle 9 #68-49.<br/>3119328720/(034)2346699</p>
+                    <h3 className="direction">Contact Information</h3>
+                    <p className="direction"><strong>Address:</strong> Calle 9 #68-49. Medellín, Antioquia.<br/><strong>Telephone:</strong> 3119328720 / (034)2346699</p>
                 </div>
                 <div className="footer-app">
                     {/*los links en este caso estan con el anchor debido a que la opcion Link de react router es para links internos de la pagina*/}
@@ -28,7 +28,7 @@ class Footer extends React.Component {
                     </a>
                 </div>
                 <p>
-                    © Eunoia. 'Una hermosa manera de pensar' • 2020 • Copyright
+                    © Eunoia - A beautiful way of thinking • 2020 • Copyright
                 </p>
             </div>
             

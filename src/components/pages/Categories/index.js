@@ -11,20 +11,16 @@ class Categories extends React.Component {
     render(){
         return (
             <div>
-                <Navigation />
-                
+                <Navigation />    
                 <div className="categories">
                 <Presentation />
-                    <h2 className="name">Categorias</h2>
+                    <h2 className="name">Categories</h2>
                     <div className="cards">
                     {recipes.map((recipe, index) => (
                         <Link to={`/categories/${index}`} className="card">{recipe.title}</Link>
                     ))}
                     </div>
-                    
-                </div>
-                
-               
+                </div>  
                 <Footer />
             </div>
         );

@@ -13,6 +13,7 @@
 .presentation-title {
     font-size: 3em;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     background-color: linen;
     justify-self: flex-start;
     padding: 0.5em 2em 2em 1em;
@@ -21,6 +22,7 @@
 }
 
 .presentation-text {
+    font-family: 'Roboto', sans-serif;
     background-color: linen;
     margin-top: 1.5em;
     padding: 2.5em 2.5em 2.5em 2.5em;

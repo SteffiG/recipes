@@ -8,7 +8,7 @@ class Presentation extends React.Component {
         return(
             <div className="presentation">
                     <h5 className="presentation-title">Recipes</h5>
-                    <p className="presentation-text">Welcome, we are hope that you found<br/> all you want in our recipes section</p>
+                    <p className="presentation-text">We hope you find what you are <br/>looking for in our recipes section.</p>
             </div>
         );
     }

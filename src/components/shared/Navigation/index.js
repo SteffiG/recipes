@@ -12,6 +12,7 @@ class Navigation extends React.Component{
                         <Link to="/" className="nav">Home</Link>
                         <Link to="/categories" className="nav">Recipes</Link>
                         <Link to="/new-recipe" className="nav">New Recipe</Link>
+                        <Link to="/added-recipes" className="nav">Added Recipes</Link>
                     </nav>
                     <div>
                         <form>

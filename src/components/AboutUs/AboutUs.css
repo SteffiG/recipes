@@ -1,0 +1,21 @@
+.about-title{
+    color: sienna;
+    font-weight: bolder;
+    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content{
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    padding: 4em;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    align-items: center;
+
+}

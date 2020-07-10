@@ -1,133 +1,141 @@
 [
     {
-        "title": "Recetas de Postres",
+        "title": "Desserts recipes",
         "description": "Esta es la descripcion de los postres",
         "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-        "category": "Postres",
+        "category": "Desserts",
         "recipes": [
             {
                 "name": "3 leches",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredientes": [
+                "image": "https://d1uz88p17r663j.cloudfront.net/original/13e670565e9d14c73420f8f4a068d186_07---Postre-3-leches.jpg",
+                "ingredients": [
                     "leche 1", "leche 2", "leche 3"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
             {
                 "name": "Quesillo",
                 "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredientes": [
+                "ingredients": [
                     "huevos", "leche evaporada", "leche condensada", "azucar"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
             {
                 "name": "Torta",
                 "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredientes": [
+                "ingredients": [
                     "margarina", "azucar", "leche", "huevos", "harina", "vainilla", "polvo de hornear"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             }
         ]
     },
     {
-        "title": "Recetas de Ensaladas",
+        "title": "Salads recipes",
         "description": "Esta es la descripcion de los postres",
         "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-        "category": "Ensaladas",
+        "category": "Salads",
         "recipes": [
             {
                 "name": "Pico de Gallo",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "tomate", "cebolla", "cilantro"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
             {
-                "name": "Ensalada de Navidad",                    
-                "ingredientes": [
+                "name": "Ensalada de Navidad",
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",                    
+                "ingredients": [
                     "repollo", "zanahoria", "guisantes", "gallina", "cebolla", "manzana", "papa"
                     ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             }
         ]
     },
     {
-        "title": "Recetas de Panaderia",
+        "title": "Bakery recipes",
         "description": "Esta es la descripcion de los postres",
         "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-        "category": "Panaderia",
+        "category": "Bakery",
         "recipes": [
             {
                 "name": "Pan de Jamon",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "harina", "margarina", "huevos", "levadura", "jamon", "tocineta"
                 ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },
             {
                 "name": "Pizza",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "harina", "margarina", "huevos", "levadura", "oregano"
                 ],
-                "preparacion": [
+                "preparation": [
                    " paso 1", "paso 2", "paso 3"
                 ]
             },
             {
                 "name": "Pan dulce",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "harina"," margarina"," huevos", "levadura", "azucar"
                     ],
-                "preparacion": [
+                "preparation": [
                     "paso 1","paso 2"," paso 3"
                 ]
             }
         ]
     },
     {
-        "title": "Recetas Vegetarianas",
+        "title": "Vegetarian recipes",
         "description": "Esta es la descripcion de los postres",
         "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-        "category": "Vegetariana",
+        "category": "Vegetarian",
         "recipes": [
             {
                 "name": "torta de zanahoria",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "ing 1", "ing 2", "ing 3"
                 ],
-                "preparacion": [
+                "preparation": [
                    " paso 1", "paso 2", "paso 3"
                 ]
             },
             {
                 "name": "Hamburguesa de lentejas",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "lentejas", "pan de hamburguesa", "tomate"
                     ],
-                "preparacion": [
+                "preparation": [
                     "paso 1", "paso 2", "paso 3"
                 ]
             },    
             {
                 "name": "Crema de Coliflor, zanahoria y Brocoli",
-                "ingredientes": [
+                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+                "ingredients": [
                     "coliflor", "zanahoria"," brocoli"," cilandro", "cebolla"
                     ],
-                "preparacion": [
+                "preparation": [
                    " paso 1", "paso2", "paso 3"
                 ]
             }
