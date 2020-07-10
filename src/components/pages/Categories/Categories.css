@@ -10,10 +10,19 @@
     
 .cards {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
     padding: 1em;
 }
+
+.MuiPaper-root .MuiCard-root .makeStyles-root-1 .MuiPaper-elevation1 .MuiPaper-rounded {
+    margin: 1em;
+}
+
+.MuiButtonBase-root .MuiCardActionArea-root {
+    margin: 1em;
+}
+
 .card {
     align-self: center;
     color: black;

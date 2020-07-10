@@ -1,14 +1,14 @@
 [
     {
         "title": "Desserts recipes",
-        "description": "Esta es la descripcion de los postres",
-        "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+        "description": "Welcome, this is the dessert section, here you will found all you want",
+        "image": "https://i.blogs.es/25bab8/postres-expres/450_1000.jpg",
         "category": "Desserts",
         "recipes": [
             {
                 "name": "3 leches",
-                "image": "https://d1uz88p17r663j.cloudfront.net/original/13e670565e9d14c73420f8f4a068d186_07---Postre-3-leches.jpg",
-                "ingredients": [
+                "image": "https://cdn.cienradios.com/wp-content/uploads/sites/4/2019/10/torta2-640x415.jpg",
+                "ingredientes": [
                     "leche 1", "leche 2", "leche 3"
                 ],
                 "preparation": [
@@ -17,8 +17,8 @@
             },
             {
                 "name": "Quesillo",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://www.venezuelaunica.com/wp-content/uploads/2019/06/Quesillo.jpg",
+                "ingredientes": [
                     "huevos", "leche evaporada", "leche condensada", "azucar"
                 ],
                 "preparation": [
@@ -27,8 +27,8 @@
             },
             {
                 "name": "Torta",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://unatorta.com/wp-content/uploads/2020/05/Torta-casera.jpg",
+                "ingredientes": [
                     "margarina", "azucar", "leche", "huevos", "harina", "vainilla", "polvo de hornear"
                 ],
                 "preparation": [
@@ -39,14 +39,14 @@
     },
     {
         "title": "Salads recipes",
-        "description": "Esta es la descripcion de los postres",
-        "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+        "description": "Welcome, this is the salads section, here you will found all you want",
+        "image": "https://dam.cocinafacil.com.mx/wp-content/uploads/2018/12/ensaladas-saludables-mes.jpg",
         "category": "Salads",
         "recipes": [
             {
                 "name": "Pico de Gallo",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://www.vvsupremo.com/wp-content/uploads/2015/11/900X570_Pico-De-Gallo.jpg",
+                "ingredientes": [
                     "tomate", "cebolla", "cilantro"
                 ],
                 "preparation": [
@@ -54,9 +54,9 @@
                 ]
             },
             {
-                "name": "Ensalada de Navidad",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",                    
-                "ingredients": [
+                "name": "Ensalada de Navidad", 
+                "image": "https://www.piloncilloyvainilla.com/wp-content/uploads/2018/11/Ensalada-de-Navidad.-SuperFreshGRowers.Ale-Graf-4-of-8.jpg",                   
+                "ingredientes": [
                     "repollo", "zanahoria", "guisantes", "gallina", "cebolla", "manzana", "papa"
                     ],
                 "preparation": [
@@ -67,14 +67,14 @@
     },
     {
         "title": "Bakery recipes",
-        "description": "Esta es la descripcion de los postres",
-        "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+        "description": "Welcome, this is the bakery section, here you will find everything you want",
+        "image": "https://panypizza.com/wp-content/uploads/2019/05/panes-724x465.jpg",
         "category": "Bakery",
         "recipes": [
             {
                 "name": "Pan de Jamon",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://okdiario.com/img/2018/12/12/pan-de-jamon-655x368.jpg",
+                "ingredientes": [
                     "harina", "margarina", "huevos", "levadura", "jamon", "tocineta"
                 ],
                 "preparation": [
@@ -83,8 +83,8 @@
             },
             {
                 "name": "Pizza",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso.jpg",
+                "ingredientes": [
                     "harina", "margarina", "huevos", "levadura", "oregano"
                 ],
                 "preparation": [
@@ -93,8 +93,8 @@
             },
             {
                 "name": "Pan dulce",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://enharinado.com/wp-content/uploads/2017/03/tunjitas.jpg",
+                "ingredientes": [
                     "harina"," margarina"," huevos", "levadura", "azucar"
                     ],
                 "preparation": [
@@ -105,14 +105,14 @@
     },
     {
         "title": "Vegetarian recipes",
-        "description": "Esta es la descripcion de los postres",
-        "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
+        "description": "Welcome, this is the vegetarian section, here you will find everything you want",
+        "image": "https://i.ytimg.com/vi/1w6NooZQlS4/maxresdefault.jpg",
         "category": "Vegetarian",
         "recipes": [
             {
                 "name": "torta de zanahoria",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://www.hola.com/imagenes/cocina/tecnicas-de-cocina/20200320163621/tarta-zanahoria-levadura-madre-receta/0-800-950/tarta-zanahoria-t.jpg",
+                "ingredientes": [
                     "ing 1", "ing 2", "ing 3"
                 ],
                 "preparation": [
@@ -121,8 +121,8 @@
             },
             {
                 "name": "Hamburguesa de lentejas",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://as.com/deporteyvida/imagenes/2019/06/30/portada/1561908934_985056_1561909688_noticia_normal.jpg",
+                "ingredientes": [
                     "lentejas", "pan de hamburguesa", "tomate"
                     ],
                 "preparation": [
@@ -131,8 +131,8 @@
             },    
             {
                 "name": "Crema de Coliflor, zanahoria y Brocoli",
-                "image": "https://hazdeoros.com/wp-content/uploads/2017/10/torta-tres-leches.jpg",
-                "ingredients": [
+                "image": "https://www.florette.es/wp-content/uploads/2019/07/Crema-de-bro%CC%81coli-coliflor-y-zanahoria-Frontal.jpg",
+                "ingredientes": [
                     "coliflor", "zanahoria"," brocoli"," cilandro", "cebolla"
                     ],
                 "preparation": [

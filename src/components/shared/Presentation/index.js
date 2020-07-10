@@ -2,7 +2,6 @@ import React from 'react';
 import './Presentation.css';
 
 /*Card ubicada sobre el titulo en la pagina de recetas*/
-
 class Presentation extends React.Component {
     render() {
         return(

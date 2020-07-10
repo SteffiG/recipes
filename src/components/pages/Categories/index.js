@@ -1,26 +1,30 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../Categories/Categories.css';
 import Presentation from '../../shared/Presentation';
 import Navigation from '../../shared/Navigation';
 import Footer from '../../shared/Footer';
-import recipes from '../../../recipes.json';
-/*Pagina de categorias de recetas*/
-
+import ImgMediaCard from '../../shared/Cards';
 class Categories extends React.Component {
-    render(){
+    render() {
+        let categories = JSON.parse(sessionStorage.getItem('recipes'));
+
         return (
             <div>
-                <Navigation />    
+                <Navigation />
                 <div className="categories">
-                <Presentation />
+                    <Presentation />
                     <h2 className="name">Categories</h2>
                     <div className="cards">
-                    {recipes.map((recipe, index) => (
-                        <Link to={`/categories/${index}`} className="card">{recipe.title}</Link>
-                    ))}
+                        {categories.map((category, index) => (
+                            <ImgMediaCard
+                                description={category.description}
+                                typoLink={`/categories/${index}`}
+                                title={category.title}
+                                image={category.image}
+                            />
+                        ))}
                     </div>
-                </div>  
+                </div>
                 <Footer />
             </div>
         );
