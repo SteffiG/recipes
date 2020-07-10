@@ -4,18 +4,18 @@ import Footer from '../../shared/Footer';
 import '../Categories/Categories.css';
 import ImgMediaCard from '../../shared/Cards';
 import PageNotFound from '../../pages/PageNotFound';
-
 class Category extends React.Component {
     render() {
         let categories = JSON.parse(sessionStorage.getItem('recipes'));
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
+
         if (parseInt(idCategory) || idCategory === '0'){
             return(
                 <div className="container">
                     <Navigation/>
                     <div className="categories">
-                        <h2>Categoria</h2>
+                        <h2>{`${categories[idCategory].category} category`}</h2>
                         <div className="cards">
                             {categories[idCategory].recipes.map((recipe, index) => (
                                 <ImgMediaCard
@@ -23,8 +23,7 @@ class Category extends React.Component {
                                     title={recipe.name}
                                     image={recipe.image} 
                                 />
-                            ))}
-                            
+                            ))}                            
                     </div>
                     </div>
                     <Footer/>
@@ -35,9 +34,6 @@ class Category extends React.Component {
         return(
             <PageNotFound />
         )
-     
-
-        
     }
 }
 export default Category;

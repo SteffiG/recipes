@@ -4,24 +4,23 @@ import Presentation from '../../shared/Presentation';
 import Navigation from '../../shared/Navigation';
 import Footer from '../../shared/Footer';
 import ImgMediaCard from '../../shared/Cards';
-
 class Categories extends React.Component {
-    render(){
+    render() {
         let categories = JSON.parse(sessionStorage.getItem('recipes'));
 
         return (
             <div>
-                <Navigation />                
+                <Navigation />
                 <div className="categories">
                     <Presentation />
-                    <h2 className="name">Categorias</h2>
+                    <h2 className="name">Categories</h2>
                     <div className="cards">
                         {categories.map((category, index) => (
                             <ImgMediaCard
                                 description={category.description}
-                                typoLink={`/categories/${index}`} 
+                                typoLink={`/categories/${index}`}
                                 title={category.title}
-                                image={category.image} 
+                                image={category.image}
                             />
                         ))}
                     </div>
