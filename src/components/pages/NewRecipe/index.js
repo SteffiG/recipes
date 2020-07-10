@@ -29,7 +29,6 @@ class NewRecipe extends React.Component {
         //console.log(this.state);
         //Le vamos a mandar el Estado a App
         this.props.onCreate(this.state);
-        console.log("seMandaEstado",this.state)
     }
 
     render() {
@@ -37,7 +36,7 @@ class NewRecipe extends React.Component {
         return (
             <div>
                 <Navigation />
-                <div>
+                <div className="form">
                     <h3>Add your recipe</h3>
                     <div>
                         <div className="text-new-recipe">
@@ -79,18 +78,15 @@ class NewRecipe extends React.Component {
                         />
                     </div>
                     <div className="button">
-                            
                             <Link to={`/added-recipes`} className="card">
                                 <button onClick={this.handleOnSave}>Create</button>
                             </Link>
-                            {console.log("nueva",this.state)}
                     </div>
                 </div>
                 <Footer />
             </div>
         );
     }
-
 }
 
 export default NewRecipe;

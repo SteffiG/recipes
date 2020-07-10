@@ -1,0 +1,26 @@
+.page {
+    background-color: linen; 
+}
+
+.page-description {
+    text-align: center;
+    font-size: 2em;
+    color: sienna;
+}
+
+.page-link {
+    font-weight: bold;
+    color: sienna;
+    background-color: linen;
+
+}
+
+.page-link:hover {
+    color: sienna;
+}
+ 
+.image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
