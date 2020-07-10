@@ -10,6 +10,7 @@ class Category extends React.Component {
         let categories = JSON.parse(sessionStorage.getItem('recipes'));
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
+        
         if (parseInt(idCategory) || idCategory === '0'){
             return(
                 <div className="container">
@@ -24,20 +25,16 @@ class Category extends React.Component {
                                     image={recipe.image} 
                                 />
                             ))}
-                            
                     </div>
                     </div>
                     <Footer/>
                 </div>
             );    
         }
-        
         return(
             <PageNotFound />
         )
-     
-
-        
     }
 }
+
 export default Category;

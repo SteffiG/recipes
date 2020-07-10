@@ -9,13 +9,13 @@ import PageNotFound from '../../pages/PageNotFound';
 
 class Recipe extends React.Component {
     render() {
-
         let categories = JSON.parse(sessionStorage.getItem('recipes'));
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
         let recipeId = params.recipeId;
         let recipeSelected = categories[idCategory].recipes[recipeId];
         console.log(parseInt(recipeSelected));
+        
         if (parseInt(recipeId) || recipeId === '0'){
             return(
                 <div className="container">
