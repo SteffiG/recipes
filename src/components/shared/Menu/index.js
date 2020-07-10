@@ -3,11 +3,12 @@ import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-
+import { Link } from 'react-router-dom'
 const options = [
-  'Home',
-  'Recipes',
-  'New recipe',
+    <Link to="/" className="nav-link"><i className="fa fa-home" aria-hidden="true"></i> Home</Link>,
+    <Link to="/categories" className="nav-link"><i className="fa fa-cutlery" aria-hidden="true"></i> Recipes</Link>,
+    <Link to="/new-recipe" className="nav-link"><i className="fa fa-pencil-square-o" aria-hidden="true"></i> New Recipe</Link>,
+    <Link to="/added-recipes" className="nav-link">Added Recipes</Link>,
 ];
 
 const ITEM_HEIGHT = 48;

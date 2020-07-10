@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App.css'
-import Banner from './components/Banner.js';
+import Home from './components/pages/Home';
 import Categories from './components/pages/Categories';
 import Category from './components/pages/Category';
 import Recipe from './components/pages/Recipe';
@@ -46,7 +46,7 @@ class App extends React.Component {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Banner />
+            <Home />
           </Route>
           <Route path="/categories/:categoryId/recipe/:recipeId" component={Recipe} />
           <Route path="/categories/:categoryId" component={Category}/>

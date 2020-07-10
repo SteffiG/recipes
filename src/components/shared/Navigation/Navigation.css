@@ -12,11 +12,15 @@
 }
 
 .nav {
-    font-size: 1.5em;
+    display: none;
+}
+
+.nav-link {
+    font-size: 1em;
     color: black;
 }
 
-.nav:active{
+.nav-link:active{
     font-weight: bold;
     color:sienna; 
     text-decoration: none;
@@ -44,18 +48,26 @@
         justify-content: space-around;
     }
     
+    .nav-menu {
+        display: none;
+    }
+
     .fa {
         padding-right: 0;
     }
 
     .nav {
+        display: flex;
+
+    }
+
+    .nav-link {
         display: inline-block;
-        padding-right: 3em;
-        font-size: 1em;
+        padding-right: 1em;
         color: black;
     }
     
-    .nav:hover{
+    .nav-link:hover{
         font-weight: bold;
         color: sienna;
         text-decoration: none;
