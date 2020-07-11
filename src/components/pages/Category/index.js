@@ -9,11 +9,7 @@ class Category extends React.Component {
         let categories = JSON.parse(sessionStorage.getItem('recipes'));
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
-<<<<<<< HEAD
         
-=======
-
->>>>>>> 1a7848f740247f7fb471dcd11d08851e8476d097
         if (parseInt(idCategory) || idCategory === '0'){
             return(
                 <div className="container">
@@ -27,11 +23,7 @@ class Category extends React.Component {
                                     title={recipe.name}
                                     image={recipe.image} 
                                 />
-<<<<<<< HEAD
-                            ))}
-=======
                             ))}                            
->>>>>>> 1a7848f740247f7fb471dcd11d08851e8476d097
                     </div>
                     </div>
                     <Footer/>

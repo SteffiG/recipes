@@ -1,3 +1,14 @@
 .makeStyles-root-1 {
     margin: 1em;
 }
+
+.CardMedia{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.separation{
+    display: flex;
+    flex-direction: column;
+}
