@@ -7,6 +7,7 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import { makeStyles } from '@material-ui/core/styles';
 import './SimpleCards.css';
+import '../../pages/Recipe/Recipe.css';
 
 const useStyles = makeStyles({
   root: {
@@ -23,6 +24,12 @@ const SimpleCard = ({ name, ingredients, steps, pictureUrl }) => {
           <h2>{name}</h2>
           <div className="steps">
             <CardContent>
+              <CardMedia
+                component="img"
+                alt="Food"
+                height="160"
+                image={pictureUrl}
+              />
               <Typography gutterBottom variant="h5" component="h2">
                 <p className="ingredients">{ingredients}</p>
               </Typography>
@@ -30,12 +37,6 @@ const SimpleCard = ({ name, ingredients, steps, pictureUrl }) => {
                 <p className="ingredients">{steps}</p>
               </Typography>
             </CardContent>
-            <CardMedia
-              component="img"
-              alt="Food"
-              height="160"
-              image={pictureUrl}
-            />
           </div>
         </div>
       </CardActionArea>
