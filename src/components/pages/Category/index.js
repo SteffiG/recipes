@@ -9,28 +9,27 @@ class Category extends React.Component {
         let categories = JSON.parse(sessionStorage.getItem('recipes'));
         const { match: { params } } = this.props;
         let idCategory = params.categoryId;
-        
-        if (parseInt(idCategory) || idCategory === '0'){
-            return(
+        if (parseInt(idCategory) || idCategory === '0') {
+            return (
                 <div className="container">
-                    <Navigation/>
+                    <Navigation />
                     <div className="categories">
-                        <h2>{`${categories[idCategory].category} category`}</h2>
+                        <h2>{`${categories[idCategory].category}`}</h2>
                         <div className="cards">
                             {categories[idCategory].recipes.map((recipe, index) => (
                                 <ImgMediaCard
-                                    typoLink={`/categories/${idCategory}/recipe/${index}`} 
+                                    typoLink={`/categories/${idCategory}/recipe/${index}`}
                                     title={recipe.name}
-                                    image={recipe.image} 
+                                    image={recipe.image}
                                 />
-                            ))}                            
+                            ))}
+                        </div>
                     </div>
-                    </div>
-                    <Footer/>
+                    <Footer />
                 </div>
-            );    
+            );
         }
-        return(
+        return (
             <PageNotFound />
         )
     }

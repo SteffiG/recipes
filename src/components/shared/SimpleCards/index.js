@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../../pages/Recipe/Recipe.css';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';

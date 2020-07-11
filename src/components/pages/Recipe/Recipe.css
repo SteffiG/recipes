@@ -6,7 +6,7 @@
 .steps {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .recipe-ingredient {
@@ -33,7 +33,6 @@
     flex-direction: column;
     justify-content: flex-start;
     color: sienna;
-    padding: 2em;
 }
 
 .preparation {
@@ -41,5 +40,4 @@
     flex-direction: column;
     justify-content: flex-end;
     color: sienna;
-    padding: 2em;
 }
