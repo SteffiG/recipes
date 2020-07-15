@@ -8,7 +8,7 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="footer-dir">
                     <h3 className="direction">Contact Information</h3>
-                    <p className="direction"><strong>Address:</strong> Calle 9 #68-49. Medellín, Antioquia.<br/><strong>Telephone:</strong> 3119328720 / (034)2346699</p>
+                    <p className="direction"><strong>Address:</strong> Street 9 #68-49. Medellín, Antioquia.<br/><strong>Telephone:</strong> 3119328720 / (034)2346699</p>
                 </div>
                 <div className="footer-app">
                     {/*los links en este caso estan con el anchor debido a que la opción Link de react router es para links internos de la página*/}
@@ -25,7 +25,7 @@ class Footer extends React.Component {
                         <i class="fa fa-youtube-play" aria-hidden="true"></i>
                     </a>
                 </div>
-                <p>
+                <p className="footer-author">
                     © Eunoia - A beautiful way of thinking • 2020 • Copyright
                 </p>
             </div>           

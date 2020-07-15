@@ -32,6 +32,10 @@
     text-align: center;
 }
 
+.footer-author {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .footer-app_icon {
         padding: 1em;

@@ -4,6 +4,8 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { Link } from 'react-router-dom'
+import './Menu.css';
+
 const options = [
     <Link to="/" className="nav-link"><i className="fa fa-home" aria-hidden="true"></i> Home</Link>,
     <Link to="/categories" className="nav-link"><i className="fa fa-cutlery" aria-hidden="true"></i> Recipes</Link>,
