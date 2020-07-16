@@ -19,7 +19,7 @@ class Navigation extends React.Component{
                 <div>
                     <form action="#" method="POST" >
                         <input className="search-input" type="search" placeholder="Search" aria-label="Search" />
-                        <a className="search" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        <Link className="search" to="#"><i className="fa fa-search" aria-hidden="true"></i></Link>
                     </form>
                 </div>
             </header>

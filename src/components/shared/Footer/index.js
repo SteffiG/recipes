@@ -13,16 +13,16 @@ class Footer extends React.Component {
                 <div className="footer-app">
                     {/*los links en este caso estan con el anchor debido a que la opción Link de react router es para links internos de la página*/}
                     <a href="https://www.instagram.com/" target="_blanck" className="footer-app_icon">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i className="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.facebook.com/" target="_blanck" className="footer-app_icon">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i className="fa fa-facebook" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.twitter.com/" target="_blanck" className="footer-app_icon">
-                        <i class="fa fa-twitter" aria-hidden="true"></i> 
+                        <i className="fa fa-twitter" aria-hidden="true"></i> 
                     </a>
                     <a href="https://www.youtube.com/" target="_blanck" className="footer-app_icon">
-                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i className="fa fa-youtube-play" aria-hidden="true"></i>
                     </a>
                 </div>
                 <p className="footer-author">
