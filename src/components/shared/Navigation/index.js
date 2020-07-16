@@ -14,7 +14,7 @@ class Navigation extends React.Component{
                     <Link to="/" className="nav-link"><i className="fa fa-home" aria-hidden="true"></i> Home</Link>
                     <Link to="/categories" className="nav-link"><i className="fa fa-cutlery" aria-hidden="true"></i> Recipes</Link>
                     <Link to="/new-recipe" className="nav-link"><i className="fa fa-pencil-square-o" aria-hidden="true"></i> New Recipe</Link>
-                    <Link to="/added-recipes" className="nav-link">Added Recipes</Link>
+                    <Link to="/added-recipes" className="nav-link"><i className="fa fa-book" aria-hidden="true"></i> Added Recipes</Link>
                 </nav>
                 <div>
                     <form action="#" method="POST" >
