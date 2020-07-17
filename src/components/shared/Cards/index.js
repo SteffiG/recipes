@@ -39,7 +39,7 @@ export default function ImgMediaCard(props) {
 
               }
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="h3">
+            <Typography variant="body2" color="textSecondary" component="p">
               {
                 props.list2 
                 ? props.list2.map((ingredient) => (
