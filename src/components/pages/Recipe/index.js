@@ -21,7 +21,7 @@ class Recipe extends React.Component {
                 <div className="container">
                     <Navigation />
                     <div className="recipe">
-                        <h2>{recipeSelected.name}</h2>
+                        <h2 className="recipe-name">{recipeSelected.name}</h2>
                         <div className="steps">
                             <ImgMediaCard 
                                 image={recipeSelected.image}

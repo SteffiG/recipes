@@ -29,7 +29,7 @@ export default function ImgMediaCard(props) {
             image={props.image}
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="h5" component="h3">
               {
                 props.list 
                 ? props.list.map((ingredient) => (
@@ -39,7 +39,7 @@ export default function ImgMediaCard(props) {
 
               }
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant="body2" color="textSecondary" component="h3">
               {
                 props.list2 
                 ? props.list2.map((ingredient) => (

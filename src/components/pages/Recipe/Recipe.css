@@ -3,6 +3,10 @@
     background-color: linen;
 }
 
+.recipe-name {
+    paddding: 3em;
+}
+
 .steps {
     display: flex;
     flex-direction: row;
