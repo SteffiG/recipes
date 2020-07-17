@@ -8,7 +8,7 @@ import './RecipesList.css';
 const List = ({ newRecipes }) => {
     console.log("new", newRecipes)
 
-    if (!newRecipes.length === 0) {
+    if (!newRecipes.length == 0) {
         return (
             <div >
                 <Navigation />

@@ -26,7 +26,7 @@ class Recipe extends React.Component {
                             <ImgMediaCard 
                                 image={recipeSelected.image}
                                 list={recipeSelected.ingredientes}
-                                list2={recipeSelected.preparacion}
+                                list2={recipeSelected.preparation}
                             />
                         </div>
                     </div>

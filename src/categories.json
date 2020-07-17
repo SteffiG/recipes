@@ -9,20 +9,20 @@
                 "name": "3 leches",
                 "image": "https://cdn.cienradios.com/wp-content/uploads/sites/4/2019/10/torta2-640x415.jpg",
                 "ingredientes": [
-                    "leche 1", "leche 2", "leche 3"
+                    "Ingredientes:", "1 1/2 taza de azucar", "1 1/2 taza de harina", "5 huevos", "vainilla", "ron", "leche condensada", "crema de leche", "leche completa"
                 ],
                 "preparation": [
-                    "paso 1", "paso 2", "paso 3"
+                    "Preparación: ", "1. Separa las claras de las yemas, en un bowl bate las claras con ayuda de una batidora", "2. Cuando las claras esten a punto de nieve agrega poco a poco la taza y media de azucar", "3. Sigue batiendo con ayuda de la batidora y agrega una a una las yemas", "4. Cuando este todo bien integrado agregamos la harina, en este caso ussaramos una paleta de madera y realizamos movimientos envolventes para evitar bajar el volumen alcanzado anteriormente", "5. Agrega vainilla, polvo de hornear y ron al gusto", "6. Hornea a una temperatura de 180 grados celsius durante 15-30 minutos, recuerda que el tiempo varía según el horno", "7. En la licuadora agrega las cremas, y cuando el biizcocho este listo le añades la mezcla de leche, te sugiera insertar un tenedor en el bizcocho para asegurarte de que el liquido penetre de manera adecuada y quede humedo el bizcocho"
                 ]
             },
             {
                 "name": "Quesillo",
                 "image": "https://www.venezuelaunica.com/wp-content/uploads/2019/06/Quesillo.jpg",
                 "ingredientes": [
-                    "huevos", "leche evaporada", "leche condensada", "azucar"
+                    "Ingredientes:", "4 huevos", "1 lata leche evaporada", "1 lata leche condensada", "azucar"
                 ],
                 "preparation": [
-                    "paso 1", "paso 2", "paso 3"
+                    "Preparacion: ", "1. Preparar el caramelo en el molde donde se realizara el quesillo, para preparar el caramelo agrega una taza de azucar, un chorrito de agua y una cucharada de vinagre, llevalo a fuego bajo sin revolver y cuando este color caramelo lo retiras", "2, En una licuadora agrega los huevo y las leches, licua hasta que esto todo bien integrado", "3. Agrega la mezcla al molde y hornea por una hora a 180 grados celsius"
                 ]
             },
             {
@@ -32,7 +32,7 @@
                     "margarina", "azucar", "leche", "huevos", "harina", "vainilla", "polvo de hornear"
                 ],
                 "preparation": [
-                    "paso 1", "paso 2", "paso 3"
+                    "Preparacion: ", "1. Crema la margarina con el azucar", "2. Agrega los huevos batidos pocoa poco, intercalando con la harina", "3. Agrega la leche liquida y luego el polvo de hornear, mezcla y agrega la vainilla y ralladura de limon", "4. Vierte la mezcla en l molde previamente engrasado y enharinado y hornea a 180 grados celsius por 45min aproximadamente"
                 ]
             }
         ]
@@ -50,7 +50,7 @@
                     "tomate", "cebolla", "cilantro"
                 ],
                 "preparation": [
-                    "paso 1", "paso 2", "paso 3"
+                    "Preparacion: ", "1. Corta el tomate, la cebolla y cilantro en cuadritos pequeños", "2. Exprime un limon y agrega sal al gusto"
                 ]
             },
             {
@@ -75,30 +75,30 @@
                 "name": "Pan de Jamon",
                 "image": "https://okdiario.com/img/2018/12/12/pan-de-jamon-655x368.jpg",
                 "ingredientes": [
-                    "harina", "margarina", "huevos", "levadura", "jamon", "tocineta"
+                    "Ingredientes:", "harina", "agua", "margarina", "huevos", "levadura", "jamon", "tocineta", "aceitunas", "pasas"
                 ],
                 "preparation": [
-                    "paso 1", "paso 2", "paso 3"
+                    "Preparacion: ", "1. Une todos los ingredientes secos", "2. Añade los huevos y mezcla", "3. Agrega poco a poco el agua y la levadura, amasa bien y cuando la masa se despegue de tus dedos deja reposar por media hora", "4. Despues de la media hora vuelva a amasar y con ayuda de un rodillo aplana la masa", "5. Rellena con el jamon, aceitunas, tocineta y pasas", "6. Envuelve y hornea por media hora a 180 grados celsius"
                 ]
             },
             {
                 "name": "Pizza",
                 "image": "https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso.jpg",
                 "ingredientes": [
-                    "harina", "margarina", "huevos", "levadura", "oregano"
+                    "Ingredientes: ", "harina", "agua tibia", "aceite de oliva", "levadura", "sal"
                 ],
                 "preparation": [
-                   " paso 1", "paso 2", "paso 3"
+                   "Prreparacion: ", "1. En un bowl agregamos el aceite, el agua y la levadura y mezclamos", "2. Añadimos la harina y la pizca de sal", "3. Tendremos que amasar como 3 o 4 minutos sin parar. Veremos que hemos terminado cuando la masa esté lisa totalmente", "4. Dejar reposar durante media hora", "5. Ahora podemos iniciar con nuestra pizza, añadimos los ingreidentes a nuestro gusto y horneamos por 20min aproximadamente"
                 ]
             },
             {
                 "name": "Pan dulce",
                 "image": "https://enharinado.com/wp-content/uploads/2017/03/tunjitas.jpg",
                 "ingredientes": [
-                    "harina"," margarina"," huevos", "levadura", "azucar"
+                    "Ingredientes: ", "harina", "leche", "levadura", "huevo", "azúcar", "mantequilla derretida", "sal"
                     ],
                 "preparation": [
-                    "paso 1","paso 2"," paso 3"
+                    "Preparacion:","1. En un bowl verter la leche y adicionar la levadura. Mezclar","2. Incorporar los huevos, la mantequilla derretida, el azúcar y la sal", "3. Integrar con la harina", "4. Remover y pasar la masa a la mesada. Es una masa muy pegajosa, por lo que hay que amasar de 8 a 10 minutos", "5. La masa estará lista cuando no se pegue ni a la mesa ni a las manos", "6. Hacer una bola con la masa y colocarla dentro del bowl inicial espolvoreado con harina", "7. Tapar con film y dejar fermentar por 1 hora", "8. Cortar porciones de masa de aproximadamente 50 gramos", "9. Tomar cada porción de masa e ir formando bolas y colocarlas separadamente en una bandeja de horno aceitada o enmantecada", "10. Tapar y dejar fermentar 1 hora o hasta que doblen su tamaño", "11. Barnizar con huevo batido y espolvorear azúcar granulada por encima", "12. Hornear a 180 grados de 15 a 20 minutos"
                 ]
             }
         ]
@@ -113,10 +113,10 @@
                 "name": "torta de zanahoria",
                 "image": "https://www.hola.com/imagenes/cocina/tecnicas-de-cocina/20200320163621/tarta-zanahoria-levadura-madre-receta/0-800-950/tarta-zanahoria-t.jpg",
                 "ingredientes": [
-                    "ing 1", "ing 2", "ing 3"
+                    "Ingredientes:", "Zanahoria", "Semillas de chia", "harina", "azúcar", "mantequilla"
                 ],
                 "preparation": [
-                   " paso 1", "paso 2", "paso 3"
+                   "Preparacion:", "1. Empezamos por batir la mantequilla hasta conseguir que quede bien cremosa", "2. La cantidad de azúcar es completamente al gusto, aunque la medida recomendada es de una taza aproximadamente, lo que equivale a unos 200 gramos", "3. Rallamos toda la zanahoria y la mezclamos con la crema de mantequilla y azúcar. Cuando veamos que la zanahoria está bien repartida por toda la mezcla, incorporamos las semillas de chia y continuamos batiendo hasta integrar todos los ingredientes.", "4. Para terminar con la masa de la torta de zanahoria, añadimos la harina tamizada y la integramos haciendo movimientos envolventes.", "5. Vacíamos la masa en un molde apto para horno, previamente engrasado, y cocinamos el bizcocho de zanahoria en el horno precalentado a 180 ºC durante unos 30 minutos"
                 ]
             },
             {

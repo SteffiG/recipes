@@ -20,7 +20,7 @@ class App extends React.Component {
     let myheaders = {
       "secret-key": '$2b$10$bfH.Nttu0XltHXoVfVkd5ePgqbk1orKam2iSoTEt8hOMa/Fk5cyv6'    
     };
-    fetch('https://api.jsonbin.io/b/5f07ab8c5d4af74b012981c4', {
+    fetch('https://api.jsonbin.io/b/5f07ab8c5d4af74b012981c4/1', {
       method: "GET",
       headers: myheaders
     }).then(function(response) {
@@ -33,7 +33,7 @@ class App extends React.Component {
   }
 
   addRecipe = (newRecipe) => {
-    //Recibe el Estado de del componene NewRecipe
+    //Recibe el Estado del componene NewRecipe
     this.setState({
       newRecipes: [...this.state.newRecipes, newRecipe],
     });
